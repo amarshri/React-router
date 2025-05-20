@@ -10,6 +10,7 @@ import About from './Components/About/About.jsx'
 import Contact from './Components/Contectus/Contect.jsx'
 import User from './Components/User/User.jsx'
 import Github from './Components/Github/Github.jsx'
+import Contextapi from './Components/Contextapi/Contextapi.jsx'
 
 
 const router = createBrowserRouter(
@@ -21,6 +22,7 @@ const router = createBrowserRouter(
     <Route path='Contect' element={<Contact/>}/>
     <Route path='user/:userid' element={<User/>}/>
     <Route path='github' element={<Github/>}/>
+    <Route path='contextapi' element={<Contextapi/>}/>
   
     </Route>
 
