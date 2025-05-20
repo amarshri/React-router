@@ -1,5 +1,5 @@
 import React, { useState , useEffect} from 'react'
-import { Themeprovider } from '../Contextcom/Theme'
+import { ThemeProvider } from '../Contextcom/Theme'
 import Themebutten from '../Contextcom/Themebutten'
 import Card from '../Contextcom/Card'
 
@@ -26,7 +26,7 @@ useEffect(() => {
   return (
 
 
-<Themeprovider value ={{thememode, lighttheme,darktheme}}>
+<ThemeProvider value ={{thememode, lighttheme,darktheme}}>
 
 
 <div className="flex flex-wrap min-h-screen items-center bg-blue-300 dark:bg-gray-900 ">
@@ -41,7 +41,7 @@ useEffect(() => {
                 </div>
             </div>
 
-</Themeprovider>
+</ThemeProvider>
 
   )
 }

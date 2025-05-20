@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import Card from '../Contextcom/Card'
+
 
 function Github() {
   const [data,setdata] = useState([])
@@ -21,6 +23,10 @@ setamar(data)
   return (
     <div className=' text-center m-4 bg-gray-600 text-white p-4 text-3xl'>Github Followers : {data.followers}
     <img className=' ml-[210px] m-[40px]' src={amar.avatar_url} alt="Git picture" width= {300}/>
+     
+          
+
+    
     </div>
   )
 }
